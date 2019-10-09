@@ -1,0 +1,115 @@
+
+/*---- Header Section ------*/
+header{
+    background-image: linear-gradient(to right, #000428,#004e92);
+    color: white;
+}
+
+header h6{
+    display: inline-flex;
+    color:lightgray;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 35px 20px;
+    opacity: 0.5;
+    line-height: 1px;   
+}
+
+header #top{height: 70px;}
+header a, header a:hover{
+    color:lightgray;
+    text-decoration: none;   
+}
+  
+header h4{
+    font-family: Segoe Script;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 4px 4px 8px #000000;
+}
+
+header img{
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    
+}
+
+/*------------- NavBar ----------------------------------*/
+
+#current{
+    font-weight: bold;
+    color:limegreen;
+    text-transform: capitalize;
+}
+
+ul.breadcrumb{
+    background-color:inherit;
+    height: 35px;
+}
+
+ul.breadcrumb li{
+    padding-left: 50px;
+    margin:auto;
+}
+ul.breadcrumb li a{color:white;}
+
+ul.breadcrumb li a:hover {
+    color:lawngreen;
+    text-decoration:none;
+}
+
+ul.breadcrumb li+li:before {
+   
+}
+
+nav{
+    height: 40px;
+    width: inherit;
+    align-content: center;
+    background-image: linear-gradient(to right, #000428,#004e92);
+}
+/*---------------Dropbtn------------------------*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#004e92 ;
+    min-width: 160px;
+    box-shadow: 0px 4px 8px 0px lightgrey; 
+    align-content: center;
+    
+}
+
+.dropdown-content #drop {
+    font-weight: normal;
+    color: white;
+    font-size: 15px;
+    margin: auto;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    
+}
+.dropdown-content #drop:hover {color: lawngreen}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/*---------Footer section-------*/
+footer{
+    height: 80px;
+}
+
+
+
+
+
+
