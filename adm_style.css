@@ -1,0 +1,97 @@
+body{
+    background-image: url("reslife.jpg")
+}
+
+header{
+    background-image: linear-gradient(to right, #ED213A,#93291E);
+    color: white;
+}
+
+header h6{
+    display: inline-flex;
+    color:lightgray;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 35px 20px;
+    opacity: 0.5;
+    line-height: 1px;   
+}
+
+header #top{height: 70px;}
+header a, header a:hover{
+    color:lightgray;
+    text-decoration: none;   
+}
+  
+header h4{
+    font-family: Segoe Script;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 4px 4px 8px #000000;
+}
+
+header img{
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%; 
+}
+
+section [type="submit"]{
+    color: white;
+    border-radius: 18px;
+    background-color: crimson;
+    border: solid  crimson;
+    margin-left: 190px;
+}
+
+section #main{
+    color: gray;
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom: 20px;
+    border: solid thin gray;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: white;
+}
+form #description{
+    width: 45%;
+    height: 100px;
+}
+
+#main input{
+    border-radius: 15px;
+    border: solid thin gray;
+}
+
+.active-cyan-3{
+    width: 25%;
+    display: inline-block;
+    align-content: right;
+}
+section [type="submit"]{
+    color: white;
+    border: solid thin;
+    border-radius: 18px;
+    margin-left: 190px;
+}
+
+.navbar{display:inline-block;}
+
+nav a:hover{
+    font-weight: bold;
+    color:white;
+    display: inline-block;
+}
+
+
+
+
+
+
+

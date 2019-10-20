@@ -1,0 +1,70 @@
+section{
+    background: url("RCS Diary Picture_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 580px;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+S
+
+.search-box{
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:#004e92;
+    height: 40px;
+    border-radius: 40px;
+
+}
+
+.image{
+
+}
+.boxed{
+    border: 1px solid red;
+}
+
+.pic{
+    background: url("RCS Diary Picture_1.jpg") ;
+    position: absolute;
+    height: auto;
+    width: auto;
+
+}
+t{
+
+    position: center;
+
+    font-family: "Calibri";
+    font-size: 30px;
+}
+
+.style{
+    width: 100%;
+    height:100%;
+    background: url("RCS Diary Picture_1.jpg") ;
+    opacity: inherit;
+}
+
+#apply_text{
+    text-align: center;
+    font-size: 28px;
+    width: 500px;
+    color: #e9f7fa;
+    position:inherit;
+    width: 100%;
+    
+}
+
+#apply_text.a{
+    word-wrap: normal;
+}
+#apply_text.b{
+    word-wrap: break-word;
+}

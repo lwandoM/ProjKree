@@ -1,0 +1,20 @@
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+h2 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}

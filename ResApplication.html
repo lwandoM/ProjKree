@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Res Application</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Residential Services</title>
+    <link rel="shortcut icon" href="logo.jpg" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+</head>
+
+<body>
+<header>          <div class="d-flex justify-content-between" id="top">
+    <h6>Welcome, Lwando</h6>
+    <h4 align="center" ><img SRC="logo.jpg" ALT="Logo" WIDTH=50 HEIGHT=50 >UWC Residential Services</h4>
+    <h6><a href="#" id="out">Logout</a></h6>
+</div>
+    <nav class="d-flex justify-content-center navbar sticky-top" aria-label="breadcrumb" >
+        <ul class="breadcrumb">
+            <a href="home.html">Home</a>
+            <li class="breadcrum-item dropbtn">
+                <div class="dropdown">
+                    <div class="dropdown-content">
+            <li class="breadcrum-item active" aria-current="page" id="current">Res Application</li>
+
+            </div>
+            </div>
+            <li class="breadcrum-item dropbtn">
+
+
+                </div>
+                </div>
+            <li class="breadcrum-item"><a href="events.html">Events</a></li>
+
+        </ul>
+
+    </nav>
+</header>
+</head>
+<body>
+
+
+    <style>
+            h3 {
+                display: block;
+                font-size: 2em;
+                margin-top: 0.70em;
+                margin-bottom: 0.70em;
+                margin-left: 0;
+                margin-right: 0;
+                font-weight: bold;
+                }
+             .button {
+                    background-color: #4CAF50; /* Green */
+                    border: none;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                    }
+              .button3 {background-color: #f44336;}
+          </style>
+</header>
+<section>
+    <ul >
+
+        <h3>Application information</h3>
+    </ul>
+
+    <div class="content">
+        <form>
+            <table >
+
+                <tr >
+                    <td>
+                        <ul>
+                            <p>Name : Sive</p>
+                            <p>Surname: Maliwa</p>
+                            <p>Address:1314 Dular Omer Street </p>
+                            <p>Gender : Male</p>
+                            <p>Study Level: 3</p>
+                            <p>Aggregate: 99%</p>
+                            </ul>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <ul>
+                            <button class="button" onclick="alert('Confirmed')">Confirm</button>
+                        </ul>
+                    </td>
+
+                    <td>
+                        <ul>
+                            <button class="button button3" onclick="alert('Application deleted')">Delete</button>
+                        </ul>
+                    </td>
+
+                </tr>
+            </table>
+        </form>
+        <ul>
+            <h3>Edit application</h3>
+        </ul>
+        <form>
+            <table>
+                <fieldset>
+                    <tr>
+                        <td>
+                            <ul>
+                                Residence choice 1:
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <select>
+                                    <option >All Residence</option>
+                                    <option value="Liberty Residence">Liberty Residence</option>
+                                    <option value="Collin Williams Residence">Collin Williams Residence</option>
+                                    <option value="Chris Hani Residence">Chris Hani Residence</option>
+                                    <option value="Basil February Residence">Basil February Residence</option>
+                                    <option value="Dos Sntos Residence">Dos Sntos Residence</option>
+                                    <option value="Hector Peterson Residence">Hector Peterson Residence</option>
+
+                                </select>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                Room Type :
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <input type="radio" name="Room Type">Single
+                                <input type="radio" name="Room Type">Double
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <ul>
+                                Residence choice 2 :
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <select>
+                                    <option >All Residence</option>
+                                    <option value="Liberty Residence">Liberty Residence</option>
+                                    <option value="Collin Williams Residence">Collin Williams Residence</option>
+                                    <option value="Chris Hani Residence">Chris Hani Residence</option>
+                                    <option value="Basil February Residence">Basil February Residence</option>
+                                    <option value="Dos Sntos Residence">Dos Sntos Residence</option>
+                                    <option value="Hector Peterson Residence">Hector Peterson Residence</option>
+                                    <label>Residence choice 2 :</label>
+                                </select>
+                            </ul>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                Room Type :
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <input type="radio" name="Room Type">Single
+                                <input type="radio" name="Room Type">Double
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <button class="button" onclick="alert('Application Submitted')">Submit</button>
+                            </ul>
+                        </td>
+                    </tr>
+                </fieldset>
+            </table>
+        </form>
+    </div>
+
+
+
+
+</section>
+<footer>
+
+</footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="slider_script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

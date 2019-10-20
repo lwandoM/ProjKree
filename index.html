@@ -1,92 +1,30 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Residential Services</title>
-      <link rel="shortcut icon" href="logo.jpg" />
+<html>
+	<head>
+		<title> Transparent Login form </title>
+		<link rel="stylesheet" href="index_style.css">
+	
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="slider.css">
-  </head>
-    
-  <body>
-      <header>
-          <div class="d-flex justify-content-between" id="top">
-              <h6>Welcome, Lwando</h6>
-              <h4 align="center" ><img SRC="logo.jpg" ALT="Logo" WIDTH=50 HEIGHT=50 >UWC Residential Services</h4>
-              <h6><a href="#" id="out">Logout</a></h6>
-          </div>
-          <nav class="d-flex justify-content-center navbar sticky-top" aria-label="breadcrumb" >
-                  <ul class="breadcrumb">
-                      <li class="breadcrum-item active" aria-current="page" id="current">Home</li>
-                      <li class="breadcrum-item dropbtn">
-                      <div class="dropdown">
-                          <a href="Apply-page.html">Apply</a>
-                          <div class="dropdown-content">
-                              <a id="drop" href="#">Res Application</a>
-                              <a id="drop" href="#">Vac Accommodation</a>
-                          </div>
-                      </div>
-                      <li class="breadcrum-item dropbtn">
-                      <div class="dropdown">
-                          <a href="Apply-page.html">Applications</a>
-                          <div class="dropdown-content">
-                              <a id="drop" href="#">View Application</a>
-                              <a id="drop" href="#">Application Status</a>
-                          </div>
-                      </div>
-                      <li class="breadcrum-item"><a href="#">Events</a></li>
-                  </ul>
-    
-          </nav>
-      </header>
-      
-      <section>
-          <div class="slideshow-container">
-              <!-- Full-width images with number and caption text -->
-              <div class="mySlides">
-                <div class="resname">Chris Hani Residence</div>
-                <img src="chrisHani.jpg">
-                <div class="text">Caption one</div>
-              </div>
+	</head>
+	<body>
+	<div class="loginBox">
+		
+		<img src="ResLife.png" class="user">
+		<h2>Log In Here</h2>
+		<form>
+			<p>Username</p>
+			<input type="text" name = "" placeholder="Enter Username">
+			<p>Password</p>
+			<input type="password" name = "" placeholder="Enter Password">
+            <p id="Error"></p>
 
-              <div class="mySlides">
-                <div class="resname">Eduardo Dos Santos Residence</div>
-                <img src="EDS.jpg" >
-                <div class="text">Caption Two</div>
-              </div>
+			<h6><a href="home.html" id="out">Log in</a></h6>
 
-              <div class="mySlides">
-                <div class="resname">Basil February Residence</div>
-                <img src="BFR.jpg">
-                <div class="text">Caption three</div>
-              </div>
 
-              <!-- Next and previous buttons -->
-              <span class="prev" onclick="plusSlides(-1)">&#10094;</span>
-              <span class="next" onclick="plusSlides(1)">&#10095;</span>
-              <div style="text-align:center" id="dot-select">
-                  <span class="dot" onclick="currentSlide(1)"></span>
-                  <span class="dot" onclick="currentSlide(2)"></span>
-                  <span class="dot" onclick="currentSlide(3)"></span>
-              </div>
-            </div>
-            <br>
-      </section>
-      <footer>
-          <p>Contact info displayed here</p>
-      </footer>
-          
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="slider_script.js"></script> 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+
+			
+		</form>
+	</div>
+	</body>
 </html>
